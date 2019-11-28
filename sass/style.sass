@@ -1,12 +1,118 @@
+@import 'fonts'
+@import "mixin"
+
 *
   box-sizing: border-box
   margin: 0
   padding: 0
 
 body
-  font-family: Calibri, sans-serif
+  @include font-myriad
   display: flex
   flex-direction: column
+  background-color: #ffffff
+  font-size: 14px
 
 .content
   flex-grow: 1
+
+.container
+  max-width: 1137px
+  margin: 0 auto
+
+.wrap-outer
+  padding-left: 10px
+  padding-right: 10px
+
+.header
+  min-height: 98px
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+  &-logo
+    display: block
+    text-decoration: none
+
+  &-location
+    display: flex
+
+    &__img
+      margin-right: 5px
+
+  &-email
+
+    &__img
+      margin-right: 5px
+
+    &__text
+      text-decoration: none
+      color: #000000
+
+      &:hover
+        text-decoration: underline
+        color: #1fba0a
+
+  &-contacts
+    @include font-sans
+
+    &__phone
+      font-weight: 700
+      color: #010101
+      font-size: 18px
+
+    &__worktime
+      color: #010101
+      font-size: 10px
+
+  &-backcall
+    display: block
+    cursor: pointer
+    width: 171px
+    height: 38px
+    border-radius: 5px
+    border: 1px solid #1fba0a
+    color: #1fba0a
+    text-decoration: none
+    text-align: center
+    line-height: 38px
+    transition: all .5s
+
+    &:hover
+      color: #ffffff
+      background-color: #1fba0a
+      border: 1px solid transparent
+
+.navbar-wrap
+  display: flex
+  color: #000000
+  font-weight: 600
+  text-transform: uppercase
+
+.navbar-menu
+  width: 124px
+  height: 50px
+  line-height: 50px
+  cursor: pointer
+
+.navbar-buttons
+  display: flex
+  list-style-type: none
+
+  &__link
+    width: 191px
+    height: 50px
+    display: block
+    text-decoration: none
+    line-height: 50px
+    text-align: center
+    transition: all .5s
+    cursor: pointer
+
+    &:hover
+      color: #000000
+      background-color: #84c604
+
+
+
+
