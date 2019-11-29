@@ -1,4 +1,4 @@
-@import 'fonts'
+@import "fonts"
 @import "mixin"
 
 *
@@ -86,21 +86,25 @@ body
 .navbar-wrap
   display: flex
   color: #000000
+  @include font-sans
   font-weight: 600
   text-transform: uppercase
+  justify-content: space-between
 
 .navbar-menu
   width: 124px
   height: 50px
   line-height: 50px
   cursor: pointer
+  text-align: center
+  outline: none
 
 .navbar-buttons
   display: flex
   list-style-type: none
 
   &__link
-    width: 191px
+    width: 160px
     height: 50px
     display: block
     text-decoration: none
@@ -108,11 +112,146 @@ body
     text-align: center
     transition: all .5s
     cursor: pointer
+    color: #000000
 
     &:hover
       color: #000000
       background-color: #84c604
 
+.navbar-menu
+  display: block
+  position: relative
 
+summary::after
+  content: url("../img/arrow-down.png")
+  position: absolute
+  left: 95px
+  top: -3px
 
+summary::-webkit-details-marker
+  display: none
+
+details:focus,
+summary:focus
+  outline: 0
+  outline: none
+
+.navbar-menu__down
+  border: 2px solid #84c604
+  &-link
+    text-decoration: none
+    color: #010101
+    display: block
+    &:hover
+      background-color: #84c604
+      color: #ffffff
+
+.navbar-cab,
+.navbar-cart
+  display: flex
+  width: 124px
+  height: 50px
+  line-height: 50px
+  text-decoration: none
+  color: #000000
+  align-items: center
+  justify-content: space-around
+  transition: all .5s
+  border: 1px solid transparent
+  &:hover
+    border: 1px solid #84c604
+    color: #84c604
+
+.navbar-cab__img
+  width: 22px
+  height: 22px
+
+.slider
+  background: url("../img/main-img.png") no-repeat 50% 50%
+  background-size: cover
+  min-height: 675px
+
+.slider-inner
+  display: flex
+  padding-top: 130px
+
+.slider-content
+  display: flex
+  flex-direction: column
+
+  &__title
+    @include font-lemon
+    color: #84c604
+    font-size: 110px
+    line-height: 100px
+    margin-bottom: 48px
+
+  &__text
+    @include font-sans
+    color: #ffffff
+    font-size: 26px
+    font-style: italic
+    margin-bottom: 56px
+
+  &__btn
+    display: block
+    @include font-sans
+    color: #fefffe
+    font-size: 16px
+    text-align: center
+    text-decoration: none
+    text-transform: uppercase
+    width: 246px
+    height: 55px
+    border-radius: 5px
+    background-color: #fd4f10
+    line-height: 55px
+    transition: all .5s
+    border: 2px solid transparent
+
+    &:hover
+      border: 2px solid #fd4f10
+      color: #fd4f10
+      background-color: #ffffff
+
+.slider-sale
+  width: 141px
+  height: 141px
+  background: linear-gradient(to top, #b71f24 0%, #df2024 100%)
+  border-radius: 50%
+  text-align: center
+  padding-top: 40px
+  color: #ffffff
+  @include font-sans
+  font-size: 29px
+  font-weight: 700
+  margin-left: 73px
+  margin-top: -35px
+
+.section-set__block
+  display: flex
+  justify-content: center
+
+.section-set__title
+  display: flex
+  margin-top: 83px
+  align-items: center
+  margin-bottom: 46px
+
+  &-text
+    @include font-lemon
+    color: #32505a
+    font-size: 60px
+    margin-left: 38px
+    margin-right: 38px
+
+  &-img
+    height: 40px
+
+.section-goods
+  display: flex
+  justify-content: space-between
+  &__item
+    box-shadow: 0 4px 29px rgba(0, 0, 0, 0.08)
+    border-radius: 10px
 

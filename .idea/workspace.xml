@@ -4,6 +4,8 @@
     <list default="true" id="a5da2dc1-16ac-4c1d-b1db-407d7a4106ed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_fonts.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_fonts.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_mixin.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_mixin.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.sass" afterDir="false" />
@@ -62,7 +64,8 @@
       <option name="presentableId" value="Default" />
       <updated>1572356799008</updated>
       <workItem from="1572356800343" duration="1575000" />
-      <workItem from="1574937117101" duration="6165000" />
+      <workItem from="1574937117101" duration="7597000" />
+      <workItem from="1575013633954" duration="10164000" />
     </task>
     <task id="LOCAL-00001" summary="begin">
       <created>1572357139767</created>
@@ -71,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572357139767</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="begin">
+      <created>1574945022982</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574945022982</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,9 +105,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="begin" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="580" y="184" key="FileChooserDialogImpl" timestamp="1574940065129">
+    <state x="425" y="23" key="CommitChangelistDialog2" timestamp="1574945021515">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1574940065129" />
+    <state x="425" y="23" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1574945021515" />
+    <state x="580" y="184" key="FileChooserDialogImpl" timestamp="1575013982047">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1575013982047" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1574945028460">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1574945028460" />
   </component>
 </project>
